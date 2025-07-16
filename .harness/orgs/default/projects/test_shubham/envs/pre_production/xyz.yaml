@@ -1,0 +1,8 @@
+environment:
+  name: xyz
+  identifier: xyz
+  description: ""
+  tags: {}
+  type: PreProduction
+  orgIdentifier: default
+  projectIdentifier: test_shubham
