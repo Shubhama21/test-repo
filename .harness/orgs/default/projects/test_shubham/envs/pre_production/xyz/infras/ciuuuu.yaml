@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: ciuuuu
+  identifier: ciuuuu
+  orgIdentifier: default
+  projectIdentifier: test_shubham
+  environmentRef: xyz
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.K8sConnectorRtnQKNodF5
+    namespace: <+input>
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: false
