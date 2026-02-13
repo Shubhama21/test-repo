@@ -1,0 +1,7 @@
+scheduledActionName: scale-up-morning
+serviceNamespace: ecs
+schedule: "cron(0 8 * * ? *)" # 8 AM UTC
+scalableDimension: "ecs:service:DesiredCount"
+scalableTargetAction:
+  minCapacity: 2
+  maxCapacity: 10
