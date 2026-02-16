@@ -3,5 +3,5 @@ serviceNamespace: ecs
 schedule: "cron(0 8 * * ? *)" # 8 AM UTC
 scalableDimension: "ecs:service:DesiredCount"
 scalableTargetAction:
-  minCapacity: 2
+  minCapacity: 3
   maxCapacity: 10
