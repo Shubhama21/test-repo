@@ -5,6 +5,7 @@ environment:
     abc: ""
     def: ""
     ghi: ""
+    jkl: ""
   type: PreProduction
   orgIdentifier: Ng_Pipelines_K8s_Organisations
   projectIdentifier: DoNotDelete_Mayank
