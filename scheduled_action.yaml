@@ -1,4 +1,4 @@
-scheduledActionName: <+serviceVariables.scheduled_action_name>
+scheduledActionName: alabasta
 serviceNamespace: ecs
 schedule: "cron(0 8 * * ? *)" # 8 AM UTC
 scalableDimension: "ecs:service:DesiredCount"
