@@ -1,0 +1,6 @@
+environment:
+  name: alabasta
+  identifier: alabasta
+  orgIdentifier: default
+  projectIdentifier: p1
+  type: PreProduction
