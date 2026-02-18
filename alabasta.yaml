@@ -3,6 +3,7 @@ environment:
   identifier: alabasta
   tags:
     abc: ""
+    def: ""
   type: PreProduction
   orgIdentifier: default
   projectIdentifier: p1
