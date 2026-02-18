@@ -1,4 +1,4 @@
-scheduledActionName: <+secrets.getValue("scheduled_action")>
+scheduledActionName: <+serviceVariables.scheduled_action_name>
 serviceNamespace: ecs
 schedule: "cron(0 8 * * ? *)" # 8 AM UTC
 scalableDimension: "ecs:service:DesiredCount"
