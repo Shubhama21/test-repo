@@ -3,4 +3,4 @@ environment:
   identifier: test_bidir_sync
   orgIdentifier: Ng_Pipelines_K8s_Organisations
   projectIdentifier: DoNotDelete_Mayank
-  type: PreProduction
+  type: Production
