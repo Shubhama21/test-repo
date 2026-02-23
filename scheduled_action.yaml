@@ -1,7 +1,7 @@
-scheduledActionName: alabasta
+scheduledActionName: scale_up
 serviceNamespace: ecs
-schedule: "cron(0 8 * * ? *)" # 8 AM UTC
+schedule: "cron(30 6 * * ? *)" # 8 AM UTC
 scalableDimension: "ecs:service:DesiredCount"
 scalableTargetAction:
-  minCapacity: 1
+  minCapacity: 3
   maxCapacity: 10
