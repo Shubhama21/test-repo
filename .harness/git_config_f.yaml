@@ -1,5 +1,5 @@
 infrastructureDefinition:
-  name: git_config_f
+  name: git_config_infra
   identifier: git_config_f
   orgIdentifier: Ng_Pipelines_K8s_Organisations
   projectIdentifier: DoNotDelete_Mayank
