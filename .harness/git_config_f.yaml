@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: git_config_f
+  identifier: git_config_f
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  projectIdentifier: DoNotDelete_Mayank
+  environmentRef: git_config
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: k8sekscdplay
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: false
