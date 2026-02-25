@@ -4,6 +4,7 @@ infrastructureDefinition:
   tags:
     test1: ""
     test2: ""
+    test3: ""
   orgIdentifier: Ng_Pipelines_K8s_Organisations
   projectIdentifier: DoNotDelete_Mayank
   environmentRef: git_config
